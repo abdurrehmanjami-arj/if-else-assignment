@@ -252,3 +252,42 @@
 // } else {
 //   console.log("Please Logged in");
 // }
+
+//! Question No 4. Contest Eligibility
+// Check if a person is eligible to enter a contest:
+// ● Must be between ages 18–35
+// ● Must be from Pakistan or India
+// ● Must not be banned
+// Display appropriate messages for age, region, or ban issues.
+//! Deepseek sa help li ha.
+// var age = parseInt(prompt("Enter Citizen Age"));
+// var region = prompt("Enter your Regionn Name").toLowerCase();
+// var banStatus = prompt("is User in Ban or not, write (Yes/No).").toLowerCase();
+// if (banStatus === "yes") {
+//   console.log(`You are banned`);
+// } else if (age < 18 || age > 35) {
+//   console.log("Age must be between 18-35");
+// } else if (region !== "pakistan" && region !== "india") {
+//   console.log("Only available for Pakistan/India");
+// } else {
+//   console.log("You are Allow in Country");
+// }
+
+// Question No 5. Subscription Access Check
+// Given the subscription plan and login status:
+// ● "Welcome Premium User" if plan is "premium" and logged in
+// ● "Welcome Free User" if plan is "free" and logged in
+// ● "Please log in to continue" if not logged in
+// ● "Invalid subscription" otherwise
+
+// var loginStatus = prompt("Login Status type (Yes/No)").toLowerCase();
+// var subscriptionStatus = prompt("Enter (Premium/ Free)").toLowerCase();
+// if (loginStatus === "no") {
+//   console.log("Please Log in to Continue");
+// } else if (loginStatus === "yes" && subscriptionStatus === "premium") {
+//   console.log("Welcome Premium User");
+// } else if (loginStatus === "yes" && subscriptionStatus === "free") {
+//   console.log("Welcome Free User");
+// } else {
+//   console.log("Invalid Subscription");
+// }
