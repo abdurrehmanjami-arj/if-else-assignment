@@ -153,4 +153,102 @@
 // Question No 16: Ask the user if they want to play a game (yes/no). If they type "yes", alert "Let's
 // play!"; else alert "Maybe next time!"
 
+// var userPlay = prompt("Want to Play a Game. (Yes/No)").toLowerCase();
+// if (userPlay === "yes") {
+//   alert("Let's Play");
+// } else {
+//   alert("Maybe Next Time");
+// }
 
+// Question No 17: Ask the user for a color. If the color is "blue", log "Cool choice!"; else log
+// "Interesting color!"
+
+// var color = prompt("Enter your Favirote Color.").toLowerCase();
+// if (color === "blue") {
+//   console.log("Cool Choice");
+// } else {
+//   console.log("Interesting Color!");
+// }
+
+// Question No 18: Ask for the day of the week. If it’s "Sunday", alert "Weekend!"; else alert "Weekday".
+
+// var weekDay = prompt("Enter the Day").toLowerCase();
+// if (weekDay === "sunday") {
+//   alert("Weekend!");
+// } else {
+//   alert("Weekday");
+// }
+
+// Question No 19:Ask the user to enter a fruit. If it's "banana" or "apple", alert "We have that!";
+// else alert "Sorry, out of stock."
+
+// var fruit = prompt("Enter Fruit Name").toLowerCase();
+// if (fruit === "banana" || fruit === "apple") {
+//   alert("We have that!");
+// } else {
+//   alert("Sorry Our of Stock");
+// }
+
+// Question No 20: Ask the user to type "start" to begin. If they do, alert "Game started!"; else alert
+// "Waiting for input..."
+
+// var palyGame = prompt("Start the Game, write 'Start'").toLowerCase();
+// if (palyGame === "start") {
+//   alert("Game Started!");
+// } else {
+//   alert("Waiting for Input....");
+// }
+
+// ----------------*****************----------------------*****************---------------------------
+
+// Question No 1: Age-Based Grade Check
+// Check a student's marks and display:
+// ● "Distinction" if marks ≥ 80
+// ● "Pass" if marks ≥ 50 and < 80
+// ● "Fail" if marks < 50
+// ● "Invalid Marks" if marks are not between 0 and 100
+
+// var marks = parseInt(prompt("Enter Student Marks"));
+// if (marks >= 80 && marks <= 100) {
+//   console.log("Distinction");
+// } else if (marks >= 50 && marks < 80) {
+//   console.log("Pass");
+// } else if (marks < 0 || marks > 100) {
+//   console.log("Invalid Marks");
+// } else {
+//   console.log("Fail");
+// }
+
+// Question No 2. Discount Eligibility Based on Age and Membership
+// Given a person's age and membership status, show:
+// ● "Senior Premium Discount" if age ≥ 60 and is a premium member
+// ● "Senior Discount" if age ≥ 60
+// ● "Premium Discount" if a premium member
+// ● "No Discount" otherwise
+
+// var age = parseInt(prompt("Enter Your Age"));
+// var membership = prompt("Membership Status. (Yes/No)").toLowerCase();
+// if (age >= 60 && membership === "yes") {
+//   console.log("Senior Premium Discount");
+// } else if (age >= 60) {
+//   console.log("Senior Discount");
+// } else if (membership === "yes") {
+//   console.log("Premium Discount");
+// } else {
+//   console.log("No Discount");
+// }
+
+// Question No 3. Login and Email Verification
+// ● If user is logged in and email is verified → "Access granted"
+// ● If user is logged in but not verified → "Please verify your email"
+// ● If not logged in → "Please log in"
+
+// var isLogin = true;
+// var isEmailVerified = true;
+// if (isLogin && isEmailVerified) {
+//   console.log("Access Granted");
+// } else if (isLogin && isEmailVerified === false) {
+//   console.log("Please Verify your Email");
+// } else {
+//   console.log("Please Logged in");
+// }
