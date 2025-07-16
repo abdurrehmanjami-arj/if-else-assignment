@@ -291,3 +291,109 @@
 // } else {
 //   console.log("Invalid Subscription");
 // }
+
+// Question No 6. Product Purchase Validation
+// Check product conditions:
+// ● "Buy now with discount" if price > 1000, in stock, and user is a member
+// ● "Buy now" if in stock
+// ● "Out of stock" if stock === 0
+// ● "Invalid product" otherwise
+
+// var productPrice = parseInt(prompt("Enter Product Price"));
+// var isStock = prompt(
+//   "Is Stock is Available or Not.. type (yes/no)"
+// ).toLowerCase();
+// var isMember = prompt("User is Member or Not.. type(yes/no)").toLowerCase();
+
+// if (productPrice > 1000 && isStock === "yes" && isMember === "yes") {
+//   console.log("Buy now with Discount");
+// } else if (isStock === "yes") {
+//   console.log("Buy now");
+// } else if (isStock === "no") {
+//   console.log("Out of Stock");
+// } else {
+//   console.log("Invalid Product");
+// }
+
+// Question No 7. Work Hours Check
+// Check based on hoursWorked and isWeekend:
+
+// ● "Overtime" if hours > 40 and not a weekend
+// ● "Weekend work" if hours > 0 and is weekend
+// ● "Regular hours" if ≤ 40
+// ● "No work" if hours === 0
+
+// var hours = parseInt(prompt("Enter your Total Hours Work"));
+// var isWeekend = prompt("Is Weekend. type (yes/No)").toLowerCase();
+// if (hours > 40 && isWeekend === "no") {
+//   console.log("Overtime");
+// } else if (hours > 0 && isWeekend === "yes") {
+//   console.log("Weekend Work");
+// } else if (hours > 0 && hours <= 40) {
+//   console.log("Regular Hours");
+// } else {
+//   console.log("No Work");
+// }
+
+// Question No 8. Age and Gender Classification
+// Given a user's age and gender:
+// ● "Teen Male" if age 13–19 and gender is "male"
+// ● "Teen Female" if age 13–19 and gender is "female"
+// ● "Adult" if age ≥ 20
+// ● "Child" if age < 13
+
+// var age = parseInt(prompt("Enter your Age"));
+// var gender = prompt("Enter your Gender").toLowerCase();
+// if (age >= 13 && age <= 19 && gender === "male") {
+//   console.log("Teen Male");
+// } else if (age >= 13 && age <= 19 && gender === "female") {
+//   console.log("Teen Female");
+// } else if (age >= 20) {
+//   console.log("Adult");
+// } else {
+//   console.log("Child");
+// }
+
+// Question No 9. Weather Warning System
+// Based on temperature and humidity:
+// ● "Heatwave Alert" if temp ≥ 40 and humidity ≥ 60
+// ● "Hot and Dry" if temp ≥ 40 and humidity < 60
+// ● "Cool Weather" if temp ≤ 20
+// ● "Moderate" otherwise
+
+// var temprature = parseInt(prompt("Enter Today Temprature"));
+// var humidity = parseInt(prompt("Enter Today Humidity"));
+// if (temprature >= 40 && humidity >= 60) {
+//   console.log("Heatwave Alert");
+// } else if (temprature >= 40 && humidity < 60) {
+//   console.log("Hot and Dry");
+// } else if (temprature <= 20) {
+//   console.log("Cool Weather");
+// } else {
+//   console.log("Moderate");
+// }
+
+// Question no 10. Score Grading System
+// Given a score between 0–100:
+
+// ● "Excellent" for 90–100
+// ● "Good" for 70–89
+// ● "Average" for 50–69
+// ● "Poor" for 30–49
+// ● "Fail" below 30
+// ● "Invalid Score" if out of range
+
+// var score = parseInt(prompt("Enter the Score between 0 - 100"));
+// if (score >= 90 && score <= 100) {
+//   console.log("Excellent");
+// } else if (score >= 70 && score <= 89) {
+//   console.log("Good");
+// } else if (score >= 50 && score <= 69) {
+//   console.log("Average");
+// } else if (score >= 30 && score <= 49) {
+//   console.log("Poor");
+// } else if (score >= 0 && score < 30) {
+//   console.log("Fail");
+// } else {
+//   console.log("Invalid Score");
+// }
