@@ -397,3 +397,109 @@
 // } else {
 //   console.log("Invalid Score");
 // }
+
+// Question No 11. Course Access Control
+// To access a course:
+// ● Must be logged in
+// ● Must be enrolled
+// ● Must not be banned
+
+// Show: "Access granted", "Enroll in course first", "User is banned", or "Please log in"
+
+// var isLogin = prompt("You Login type. (Yes/No)").toLowerCase();
+// var enroll = prompt("You enroll type. (Yes/no)").toLowerCase();
+// var banStatus = prompt("is User in Ban or not, write (Yes/No).").toLowerCase();
+// if (banStatus === "yes") {
+//   console.log(`User is banned`);
+// } else if (isLogin === "yes" && enroll === "yes") {
+//   console.log("Access Granted");
+// } else if (enroll === "no") {
+//   console.log("Enroll in Course First");
+// } else {
+//   console.log("Please login");
+// }
+
+// Question No 12. Driving Conditions
+// Given a user's speed and license status:
+// ● "License suspended" if speed > 120
+// ● "Warning" if speed between 100–120
+// ● "Normal driving" if speed ≤ 100 and has license
+// ● "Driving without license" otherwise
+
+// var carSpeed = parseInt(prompt("Enter Speed Limit"));
+// var licenseStatus = prompt("License is Valid or Not,type (Yes/No)");
+// if (carSpeed > 120) {
+//   console.log("License Suspended");
+// } else if (carSpeed > 100 && carSpeed <= 120) {
+//   console.log("Warning");
+// } else if (carSpeed <= 100 && licenseStatus === "yes") {
+//   console.log("Normal Driving");
+// } else {
+//   console.log("Driving without License");
+// }
+
+// Question No 13. Order Processing Status
+
+// For an online order:
+// ● "Order on the way" if payment is complete and shipped
+// ● "Preparing your order" if payment is complete and not shipped
+// ● "Awaiting payment" if payment is pending
+// ● "Payment failed" if transaction failed
+
+// var paymentStatus = prompt(
+//   "Payment Status done or not, type (yes/no)"
+// ).toLowerCase();
+// var isShipped = prompt("Package Shiped or not, type (Yes/no)").toLowerCase();
+// var isTransaction = prompt(
+//   "Transaction Completed or Not. tupe (Yes/No)"
+// ).toLowerCase();
+// if (isTransaction === "no") {
+//   console.log("Payment failed");
+// } else if (paymentStatus === "yes" && isShipped === "yes") {
+//   console.log("Order on the way");
+// } else if (paymentStatus === "yes" && isShipped === "no") {
+//   console.log("Preparing your order");
+// } else if (paymentStatus === "no") {
+//   console.log("Awaiting payment");
+// } else {
+//   console.log("Invalid input");
+// }
+
+// Question No 14. Battery Status Checker
+// Given battery level and charging state:
+// ● "Fully Charged" if level === 100
+// ● "Charging..." if level < 100 and charging
+// ● "Low Battery" if level < 20 and not charging
+// ● "Battery OK" otherwise
+
+// var batteryLevel = parseInt(prompt("Enter your Mobile Battery Level. (0-100)"));
+// var chargingStatus = prompt(
+//   "Mobile Connect with Charger or not. type (Yes/No)"
+// ).toLowerCase();
+// if (batteryLevel === 100) {
+//   console.log("Fully Charged");
+// } else if (batteryLevel < 100 && chargingStatus === "yes") {
+//   console.log("Charging...");
+// } else if (batteryLevel < 20 && chargingStatus === "no") {
+//   console.log("Low Battery");
+// } else {
+//   console.log("Battery Ok..");
+// }
+
+// Question No 15. Browser and Device Compatibility Check
+// Based on user's browser and device:
+// ● "Full features enabled" if browser is Chrome and device is Desktop
+// ● "Limited mobile features" if browser is Chrome and device is Mobile
+// ● "Please switch to Chrome" for all other browsers
+
+// var browser = prompt("Which Browser you are using.").toLowerCase();
+// var useDevice = prompt(
+//   "Which Device you Used. (Desktop/ mobile)"
+// ).toLowerCase();
+// if (browser === "chrome" && useDevice === "desktop") {
+//   console.log("Full Features Enable");
+// } else if (browser === "chrome" && useDevice === "mobile") {
+//   console.log("Limited Mobile Features");
+// } else {
+//   console.log("Please Switch to Chrome Browser");
+// }
